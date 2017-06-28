@@ -1,0 +1,34 @@
+/* file upload */
+.fileinput-wrap{width:100%;}
+.fileinput-wrap .file-preview{border-radius: 5px;border: 1px solid #ddd;padding: 5px;width: 100%;margin-bottom: 5px;}
+.fileinput-wrap .file-preview .file-zone{color: #aaa;font-size: 1.6em;height:200px;cursor: default;text-align:center;vertical-align:middle;margin:12px;padding:5px;border:1px dashed #aaa;line-height:185px;}
+.fileinput-wrap .file-preview .file-zone img{max-height:188px;}
+.fileinput-wrap .file-captain{width:100%;position:relative;display:table;border-collapse:separate;}
+.fileinput-wrap .file-captain .file-name-wrap{border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.fileinput-wrap .file-captain .file-captain-name{display: inline-block;overflow: hidden;height: 20px;word-break: break-all;}
+.fileinput-wrap input[type=file]{position: absolute;top: 0;right: 0;min-width: 100%;min-height: 100%;text-align: right;opacity: 0;background: none repeat scroll 0 0 transparent;cursor: inherit;display: block;}
+.fileinput-wrap i.fa{margin-right:3px;}
+.fileinput-wrap .file-wrap{overflow:hidden;}
+.fileinput-wrap .btn:focus{z-index:999;}
+.fileinput-wrap i.fa.fa-file{margin-right:5px;}
+.file-input-new .file-remove-button, .file-input-new .file-upload-button{display:none;}
+.uploading-file-shadow{box-shadow:0px 0px 6px #87bde8;-webkit-box-shadow:0px 0px 6px #87bde8;-moz-box-shadow:0px 0px 6px #87bde8;}
+.fileinput-wrap .data-imgurl{display:none;opacity:0;overflow:hidden;width:0;height:0;}
+    /* 上传多个图片 */
+.fileinput-wrap.multiple-up{width:100%;}
+.fileinput-wrap .file-preview .multiple-cell{margin: 8px;height: 200px;border: 1px solid #ddd;box-shadow: 1px 1px 5px 0 #a2958a;padding: 6px;float: left;box-sizing: border-box;padding:6px;min-width:138px;}
+.fileinput-wrap .no-files{display:none;vertical-align:middle;}
+.fileinput-wrap.file-input-new .no-files{display:inline-block;}
+.fileinput-wrap.multiple-up .file-preview .file-zone{height:auto;min-height:228px;}
+.fileinput-wrap .file-preview .multiple-cell .imgwrap{height:155px;}
+.fileinput-wrap .file-preview .multiple-cell .imgwrap img{height:155px;vertical-align:top;}
+.fileinput-wrap .file-preview .multiple-cell .opera{height:30px;}
+.fileinput-wrap .file-preview .multiple-cell .opera .shift{height:30px;float:left;}
+.fileinput-wrap .file-preview .multiple-cell .opera button{vertical-align:top;padding:1px 5px;margin-top:7px;}
+.fileinput-wrap .file-preview .multiple-cell .opera .shift i{margin-right:0;color:#267298;font-size:12px;}
+.fileinput-wrap .file-preview .multiple-cell .opera .shift button:first-child, .fileinput-wrap .file-preview .multiple-cell .opera .start button:first-child{margin-right:5px;}
+.fileinput-wrap .file-preview .multiple-cell .opera .start{height:30px;float:right;}
+.fileinput-wrap .file-preview .multiple-cell .opera .start i{margin-right:0;font-size:14px;}
+.fileinput-wrap .file-preview .multiple-cell .opera .start i.fa-trash-o{color:#a94442;}
+.fileinput-wrap .file-preview .multiple-cell .scrollImgUrl{display:none;}
+/* end file upload */

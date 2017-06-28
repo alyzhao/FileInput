@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="/lib/jquery.min.js"></script>
+<script type="text/javascript" src="/lib/ajaxfileupload.js"></script>
+<script type="text/javascript" src="/lib/fileinput.js"></script>
+<script type="text/javascript" src="/lib/layer/layer.js"></script>
+<link rel="stylesheet" type="text/css" href="/style/base.css">
+<link rel="stylesheet" type="text/css" href="/style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/style/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/style/fileinput.css">
+<title>using H5 upload file</title>
+</head>
+<body>
+	<div class="content">
+		<!-- 上传单图 -->
+		<!-- span.data-imgurl 上传到服务器接着返回图片地址存储在内 -->
+		<div class="fileinput-wrap file-input-new">
+			<div class="file-preview">
+                <div class="file-zone">
+                    <span class="no-files">No Files...</span>
+                </div>
+            </div>
+            <div class="input-grap file-captain">
+                <div class="form-control file-name-wrap">
+                    <div class="file-captain-name">
+                    </div>
+                    <span class="data-imgurl"></span>
+                </div>
+                <div class="input-group-btn">
+                    <button class="btn btn-default file-remove-button"><i class="fa fa-trash-o"></i>Remove</button>
+                    <button class="btn btn-default file-upload-button" data-code="1"><i class="fa fa-upload"></i>Upload</button>
+                    <div class="btn btn-primary file-wrap">
+                        <i class="fa fa-folder-open"></i>
+                        <span>Browse...</span>
+                        <input class="input-upload" multiple="nomultiple" name="input-upload" type="file" />
+                    </div>
+                </div>
+            </div>		
+        </div>
+
+	</div>
+</body>
+</html>
