@@ -31,4 +31,9 @@
 .fileinput-wrap .file-preview .multiple-cell .opera .start i{margin-right:0;font-size:14px;}
 .fileinput-wrap .file-preview .multiple-cell .opera .start i.fa-trash-o{color:#a94442;}
 .fileinput-wrap .file-preview .multiple-cell .scrollImgUrl{display:none;}
+
+.bigger-img-wrap{width:100%;height:100%;position:absolute;top:0;left:0;background-color:rgba(0, 0, 0, .3);text-align:center;z-index:999;}
+.bigger-img-wrap .img-content{position:absolute;top:50%;left:50%;transform: translateX(-50%) translateY(-50%);}
+.bigger-img-wrap img{max-height:450px;max-width:550px;}
+.bigger-img-wrap *{user-select:none;}
 /* end file upload */
